@@ -1,6 +1,26 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: red;
-  color: black;
+  background-color: lightsteelblue;
+  height: 100vh;
+}
+
+header {
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(210, 242, 250);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+headline {
 }
