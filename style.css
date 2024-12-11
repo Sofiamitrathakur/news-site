@@ -13,6 +13,7 @@ header {
   color: antiquewhite;
 }
 nav {
+  box-sizing: border-box;
   background-color: black;
   color: antiquewhite;
 }
@@ -26,6 +27,13 @@ ul {
 .securities {
   box-sizing: border-box;
   background-color: white;
+  color: black;
+}
+
+.latest {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
 div {
