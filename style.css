@@ -2,25 +2,42 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: lightsteelblue;
-  height: 100vh;
 }
 
 header {
-  justify-content: center;
+  padding: 0px 0px 0px 25px;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  background-color: black;
+  color: antiquewhite;
 }
-
+nav {
+  background-color: black;
+  color: antiquewhite;
+}
 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(210, 242, 250);
+}
+
+.securities {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+div {
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 section {
   display: flex;
-  flex-direction: column;
-}
-
-headline {
+  flex-direction: row;
+  justify-content: space-between;
 }
