@@ -1,13 +1,22 @@
+.top {
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px 50px 50px;
+  }
+
 body {
   margin: 0;
   box-sizing: border-box;
+  height: 100vh
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   background-color: lightsteelblue;
 }
 
 header {
-  padding: 0px 0px 0px 25px;
-  display: flex;
-  justify-content: flex-start;
   box-sizing: border-box;
   background-color: black;
   color: antiquewhite;
@@ -21,6 +30,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -33,19 +43,17 @@ ul {
 .latest {
   list-style-type: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-div {
+.news {
   margin: 25px;
   padding: 25px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-section {
-  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  }
